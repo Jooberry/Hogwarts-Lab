@@ -3,8 +3,8 @@ DROP TABLE houses;
 
 CREATE TABLE houses (
   id serial8 PRIMARY KEY,
-  
-)
+  name VARCHAR(255)
+);
 
 CREATE TABLE students (
   id serial8 PRIMARY KEY,
